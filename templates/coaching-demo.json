@@ -1,0 +1,27 @@
+{
+  "name": "Coaching Demo Scheduler",
+  "description": "Collects course interest and schedules demo classes.",
+  "flow": [
+    {
+      "id": "start",
+      "message": "Which class are you interested in?",
+      "options": [
+        "Math",
+        "Science",
+        "English"
+      ]
+    },
+    {
+      "id": "schedule",
+      "message": "Choose a demo slot",
+      "options": [
+        "Today 5pm",
+        "Tomorrow 6pm"
+      ]
+    },
+    {
+      "id": "confirm",
+      "message": "Thanks \u2014 we will call to confirm your slot."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Real Estate Lead Bot",
+  "description": "Capture buyer leads, show project listings, and schedule site visits.",
+  "flow": [
+    {
+      "id": "start",
+      "message": "Welcome! Are you looking to buy or sell?",
+      "options": [
+        "Buy",
+        "Sell"
+      ]
+    },
+    {
+      "id": "buy",
+      "message": "Great \u2014 which budget range?",
+      "options": [
+        "<50L",
+        "50L-1Cr",
+        ">1Cr"
+      ]
+    },
+    {
+      "id": "contact",
+      "message": "Please share your name and phone number",
+      "collect": "name,phone"
+    }
+  ]
+}

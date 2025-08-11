@@ -1,0 +1,15 @@
+{
+  "name": "Order Tracking Bot",
+  "description": "Allow customers to check order status and return policy.",
+  "flow": [
+    {
+      "id": "start",
+      "message": "Enter your order ID",
+      "collect": "order_id"
+    },
+    {
+      "id": "status",
+      "message": "Your order is in transit. Expected delivery in 2 days."
+    }
+  ]
+}
